@@ -19,9 +19,9 @@ fun Chef.isGreatChef(rating:Int): Boolean{
 }
 
 fun askChef(){
-    val Maria = Chef()
-    println("${Maria.hasCooked(55)}")
-    println("${Maria.isGreatChef(99)}")
+    val Kris = Chef()
+    println("${Kris.hasCooked(55)}")
+    println("${Kris.isGreatChef(99)}")
 }
 
 
@@ -37,10 +37,10 @@ fun extendString(){
 
 2
         // creating the extension function here
-    fun String.add(s1: String, s2: String){
-        return this + s1 + s2)
-
-    }
+//    fun String.add(s1: String, s2: String){
+//        return this + s1 + s2)
+//
+//    }
 }
 
 

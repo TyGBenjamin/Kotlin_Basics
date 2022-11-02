@@ -12,6 +12,11 @@ fun scopeFunction(){
     // LET & ALSO -> gives access to IT variable in lambda which can be renamed
     // RUN,WITH & APPLY -> give way to THIS
 
+    // LET, WITH, & RUN allow us to alter the object type based on the last line that is initiated within
+    //that scope function
+
+    // APPLY & ALSO do not alter the type of object being altered
+
 
 // ------- LET ----------------
     //When should we use let function? Well, there are several scenarios.
